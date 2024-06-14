@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1C1C;
+}
+
+.app{
+  width: 500px;
+  height: 300px;
+  background-color: #1F2938;
+  border-radius: 20px;
+  padding: 15px 30px;
+}
+
+header h1{
+  color: white;
+  font-size: 55px;
+  font-weight: 900;
+}
+header h2{
+  color: #4ADF86;
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: -10px;
+}
+header p{
+  color: #999CA3;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.input{
+  margin: 10px 0;
+}
+
+.input{
+  color: #4ADF86;
+}
+.input input{
+  width: 65%;
+  height: 20px;
+  background-color: #283549;
+  color: #4ADF86;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: 8px;
+}
+.rotate{
+  margin-right: 5px;
+}
+
+main h1, .label{
+  color: #999CA3;
+}
+
+.label{
+  margin: 15px;
+  line-height: 1.4;
+}
+
+.label label{
+  margin-right: 5px;
+}
+
+input[type='range']{
+  accent-color: #4ADF86;
+}
+
+input[type='checkbox']{
+  accent-color: #4ADF86;
+}
